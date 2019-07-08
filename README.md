@@ -1,4 +1,4 @@
-[![Download](https://api.bintray.com/packages/slepasteur/public-conan/immer%3Aslepasteur/images/download.svg) ](https://bintray.com/slepasteur/public-conan/immer%3Aslepasteur/_latestVersion)
+[![Download](https://api.bintray.com/packages/axalon/conan/immer%3Aaxalon/images/download.svg)](https://bintray.com/axalon/conan/immer%3Aaxalon/_latestVersion)
 [![Build Status Travis](https://travis-ci.org/slepasteur/conan-immer.svg?branch=testing%2F0.4.0)](https://travis-ci.org/slepasteur/conan-immer)
 [![Build Status AppVeyor](https://ci.appveyor.com/api/projects/status/github/slepasteur/conan-immer?branch=testing%2F0.4.0&svg=true)](https://ci.appveyor.com/project/slepasteur/conan-immer)
 
@@ -6,7 +6,7 @@
 
 Postmodern immutable and persistent data structures for C++
 
-The packages generated with this **conanfile** can be found on [Bintray](https://bintray.com/slepasteur/public-conan/immer%3Aslepasteur).
+The packages generated with this **conanfile** can be found on [Bintray](https://bintray.com/axalon/conan/immer%3Aaxalon).
 
 
 ## Issues
@@ -20,14 +20,14 @@ If you wish to report an issue or make a request for a Bincrafters package, plea
 
 ### Basic setup
 
-    $ conan install immer/0.4.0@slepasteur/testing
+    $ conan install immer/0.6.2@axalon/testing
 
 ### Project setup
 
 If you handle multiple dependencies in your project is better to add a *conanfile.txt*
 
     [requires]
-    immer/0.4.0@slepasteur/testing
+    immer/0.6.2@axalon/testing
 
     [generators]
     txt
@@ -43,14 +43,14 @@ Note: It is recommended that you run conan install from a build directory and no
 
 The following command both runs all the steps of the conan file, and publishes the package to the local system cache.  This includes downloading dependencies from "build_requires" and "requires" , and then running the build() method.
 
-    $ conan create . slepasteur/testing
+    $ conan create . axalon/testing
 
 
 
 
 ## Add Remote
 
-    $ conan remote add slepasteur "https://api.bintray.com/conan/slepasteur/public-conan"
+    $ conan remote add bt-axalon "https://api.bintray.com/conan/axalon/conan"
 
 
 ## Conan Recipe License
@@ -58,4 +58,4 @@ The following command both runs all the steps of the conan file, and publishes t
 NOTE: The conan recipe license applies only to the files of this recipe, which can be used to build and package immer.
 It does *not* in any way apply or is related to the actual software being packaged.
 
-[MIT](https://github.com/slepasteur/conan-immer/blob/testing/0.4.0/LICENSE.md)
+[MIT](https://github.com/axalon900/conan-immer/blob/testing/0.6.2/LICENSE.md)
